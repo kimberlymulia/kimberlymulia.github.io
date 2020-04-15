@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    background-color: tan;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.container {
+    height: 100vh;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+
+.container3{
+    height: 800px;
+    padding-top: 100px;
+    
+}
+
+.description, .description2{
+    padding-bottom: 50px;
+}
+
+.description{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navweb, #home, #skincare, #haircare, #bathbody{
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.navweb {
+    height: 75px;
+    line-height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlogo{
+    width: 50vw;
+}
+
+.navlogo img{
+    padding: 15px 0px;
+    width: 10vw;
+    height: 100%;
+    object-fit: contain;
+}
+
+.navlink {
+    width: 30vw;
+    float: left;
+}
+
+.navlink li{
+    width: 10vw;
+    display: block;
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+
+.navlink-li:hover{
+    background-color: white;
+    color: black;
+}
+
+.navlink li:hover .link{
+    color: black;
+}
+
+.dropdown{
+    display: none;
+}
+.dropdown li{
+    background-color: white;
+}
+.dropdown li:hover{
+    background-color:  tan;
+}
+
+.navlink li:hover .dropdown{
+    display: block;
+}
+
+
+.link{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+#home{
+    height: 200vh;
+}
+
+.images-container{
+    margin-bottom: 100px;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+
+.images-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.welcome, .judulkiri{
+    width: 50%;
+    background-color: white;
+    text-align: center;
+}
+
+.welcomedesc,.kanandesc{
+    width: 50%;
+    background-color: white;
+}
+
+.about {
+    background-color: white;
+}
+
+
+
+.innercontainer{
+    height: 90%;
+    width: 50%;
+    background-color: white;
+    margin-right: 40px;
+}
+
+.innercontainer img{
+ height: 100%;
+ width: 100%;
+  object-fit: cover;
+ 
+}
+
+.description2{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 50%;
+  background-color: white;
+}
+
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+}
+
+.photo{
+    width: 400px;
+    height: 300px;
+    margin-right: 25px;
+    background-color: none;
+}
+
+.photo img{
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+ 
+}
+
+#footer{
+    margin-top: 100px;
+    padding: 20px;
+    height: 120px;
+    background-color: tan;
+}
+
+   
+.external-link{
+    padding-top: 10px;
+    display: flex;
+}
+
+.external-link a {
+    text-decoration: none !important;
+    color: black;
+    width: 50px;
+    height: 50px;
+    display: box;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+    overflow: hidden;
+    position: relative;
+}
+  
+.fb{
+    background-color: beige;
+}
+
+.tw{
+    background-color: beige;
+}
+
+.insta{
+    background-color: beige;
+}
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .navweb, #footer{
+        display: none;
+    }
+
+    .sidenav, .sidenav-container{
+        width: 100vw;
+        position: fixed;
+        top: 0px;
+        z-index: 1;
+        background-color: tan;
+        min-height: 45px;
+    }
+
+    .fa-bars{
+        font-size: 20px !important;
+        right: 0px;
+        top: 0px;
+        position: fixed;
+        color: white;
+        padding: 10px;
+    }
+
+    .fa-close{
+        font-size: 20px !important;
+        right: 0px;
+        color: white;
+        padding: 10px;
+        position: absolute;
+    }
+
+    .sidenav-container{
+        right: 0px;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .navlogo{
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .navlogo img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .link{
+        display: block;
+        padding: 10px 0px;
+    }
+
+    .sidenav-link .link:hover {
+        background-color: white;
+        color:  black;
+    }
+
+    .follow{
+        padding: 10px 0px;
+        color: white;
+    }
+
+    .external-link{
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+
+    .external-link a {
+        text-decoration: none !important;
+        color: black;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        font-size: 25px;
+    }
+    
+    h1{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+    
+    .images-container{
+        margin: 0;
+        height: 150px;
+    }
+
+    .images-container img{
+        object-fit: contain;
+    }
+
+    .container, .container2{
+        flex-direction: column;
+        height: auto;
+     }
+     
+     .container3{
+    height: 1000px;
+    padding-top: 100px;
+}
+
+     .description, .description2{
+         width: 100%;
+         flex-direction: column;
+     }
+
+     .innercontainer{
+         margin-bottom: 20px;
+     }
+
+     .welcome, .judulkiri{
+        width: 100%;
+        background-color: white;
+        text-align: center;
+
+    }
+    
+    .welcomedesc,.kanandesc{
+        width: 100%;
+        background-color: white;
+    }
+
+
+    .gallery{
+        display: flex;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+
+    }
+
+
+    .photo {
+        flex-shrink: 0;
+        width: 300px;
+        height: 300px;
+        margin-right: 50px;
+        border-radius: 10px;
+        background: white;
+        position: relative;
+        
+      }
+}

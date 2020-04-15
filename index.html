@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/gif/png" href="images/logok.jpg" />
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" />
+    <title>My Blog</title>
+</head>
+
+<body>
+    <nav class="navweb">
+        <div class="navlogo">
+            <a class="logo" href="#home" onclick="homePage()">
+                <img src="images/logok.jpg" />
+            </a>
+        </div>
+        <ul class="navlink">
+            <li class="navlink-li">
+                <a href="#skincare" class="link" onclick="skincarePage()">Skincare</a>
+                <ul class="dropdown">
+                    <li>
+                        <a href="#skincare-oily" class="link" onclick="skincarePage()">Oily Skin</a>
+                    </li>
+                    <li>
+                        <a href="#skincare-dry" class="link" onclick="skincarePage()">Dry Skin</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navlink-li">
+                <a href="#haircare" class="link" onclick="haircarePage()">Haircare</a>
+                <ul class="dropdown">
+                    <li>
+                        <a href="#haircare-frizzy" class="link" onclick="haircarePage()">Frizzy Hair</a>
+                    </li>
+                    <li>
+                        <a href="#haircare-dryends" class="link" onclick="haircarePage()">Dry Ends</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navlink-li">
+                <a href="#bathbody" class="link" onclick="bathbodyPage()">Bath & Body</a>
+                <ul class="dropdown">
+                    <li>
+                        <a href="#bathbody-dry" class="link" onclick="bathbodyPage()">Dry Skin</a>
+                    </li>
+                    <li>
+                        <a href="#bathbody-bodybalm" class="link" onclick="bathbodyPage()">Body Balm</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="sidenav" onclick="toggleSideNav()">
+        <i class="fa fa-bars"></i>
+    </div>
+
+    <nav class="sidenav-container">
+        <div onclick="toggleSideNav()">
+            <i class="fa fa-close"></i>
+        </div>
+        <div class="navlogo">
+            <a class="logo" href="#home" onclick="homePage1()" >
+                <img src="./images/logok.jpg" />
+            </a>
+        </div>
+        <ul class="sidenav-link">
+            <li>
+                <a href="#skincare" class="link" onclick="skincarePage1()">Skincare</a>
+            </li>
+            <li>
+                <a href="#haircare" class="link" onclick="haircarePage1()">Haircare</a>
+            </li>
+            <li>
+                <a href="#bathbody" class="link" onclick="bathbodyPage1()">Bath & Body</a>
+            </li>
+        </ul>
+
+
+
+
+            <h2>Follow me on</h2>
+        <div class="external-link">
+            <a href="https://www.facebook.com" class="fb"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com" class="tw"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com" class="insta"><i class="fa fa-instagram"></i></a>
+        </div>
+    </nav>
+
+    <div id="home">
+        <div id="home-header" class="container">
+            <div class="images-container">
+                <img src="images/foto1.jpg">
+            </div>
+            <div class="description">
+                <div class="welcome">
+                    <h1>Welcome!</h1>
+                </div>
+                <div class="welcomedesc">
+                    <h2>
+                        This blog is dedicated to reviewing mid to high-end luxury care
+                        products including skincare, haircare and bodycare with some
+                        lifestyle elements mixed in. This blog focuses primarily on
+                        product reviews including swatches, product comparisons and
+                        personal thoughts on what I’ve tested. I do hope these
+                        information will be helpful for you!
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div id="about" class="container container2">
+            <div class="innercontainer"><img src="./images/girl.jpg"></div>
+            <div class="description2">
+                <div class="about">
+                    <h1>ABOUT ME</h1>
+           
+                    <h2>I created this blog to be a place for me to share my personal problems that I wasn't proud with,
+                        but I learn over time that its totally normal! I want to help you guys if you're experiencing
+                        the same problems as I do.
+                        All I've learnt throughout the years is in this blog, you’ll get a little taste of the products
+                        I use and honest reviews of them! Welcome and enjoy my Blog!</h2>
+
+                    <h2>Disclaimer : The products listed in this blog are based on my
+                        knowledge only. The purpose of this blog is to share my
+                        lifestyle preferences and experience, and life in general to
+                        offer a little entertainment along the way. Please note that i
+                        am not a dermatologist, for more information please consult a
+                        professional.
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="skincare">
+        <div id="skincare-header" class="container container2">
+            <div class="description2">
+                <div class="skincare-title">
+                    <h1>What is Skincare & Why is it so Important ?</h1>
+                </div>
+                <div class="skincare-desc">
+                    <h2>Proper skin care is important because our skin is the largest barrier against infection that
+                        we have. Keeping our skin healthy and moist helps keep this barrier strong. When the skin gets
+                        dry or irritated by harsh soaps, cracks in the skin can occur. Cracks in the skin make a person
+                        more prone to infection. Skincare products should be free of scents or perfumes. Soaps should be
+                        gentle and moisturizers should be used daily.
+                    </h2>
+                </div>
+            </div>
+            <div class="innercontainer"><img src="./images/softskin.jpg">
+            </div>
+        </div>
+
+        <div id="skincare-oily" class="container3">
+            <div class="description">
+                <div class="judulkiri">
+                    <h1>Oily Skin Problems</h1>
+                </div>
+                <div class="kanandesc">
+                    <h3>THE ORDINARY</h3>
+                    <h3>100% PLANT DERIVED SQUALIN</h3>
+                    <h2>If you guys have been following my youtube, you must know that i struggled with my hyper oily
+                        skin. This product changed the game!
+                        It is a lightweight plant-derived solution that supports healthy hydration.
+                        Squalane has very high emollience, is an exceptional hydrator and can prevent ongoing loss of
+                        hydration that impairs dermal suppleness.
+
+                        I've for so long been of the camp that The Ordinary simply cannot be as good as its expensive
+                        counterparts due to its cheap cost. I'm a fool and a slave to marketing! I'm all wrong! There is
+                        absolutely no discernible difference between this and expensive brands of oils. This squalane
+                        performs the same. Stop wasting your money, this is just as good.
+                        I highly recommend, does NOT leave skin oily/greasy. It absorbs right into the skin. It leaves
+                        my skin feeling super hydrated and glows!
+                    </h2>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="photo"><img src="./images/ordinary.jpg"></div>
+                <div class="photo"><img src="./images/ordinary2.jpg"></div>
+                <div class="photo"><img src="./images/ordinary3.jpg"></div>
+                <div class="photo"><img src="./images/a.jpg"></div>
+            </div>
+        </div>
+
+        <div id="skincare-dry" class="container3">
+            <div class="description">
+                <div class="judulkiri">
+                    <h1>Dry Skin Problems</h1>
+                </div>
+                <div class="kanandesc">
+                    <h3>PIXI</h3>
+                    <h3>GLOW TONIC</h3>
+                    <h2>The Pixi Glow Tonic™ is highly concentrated, invigorating facial toner that deeply cleans pores
+                        by sweeping away excess oil and impurities.Use it in the AM or PM for a healthier, balanced
+                        complexion that's ready to glow. With Pixi Glow Tonic, your skin will be balanced, soothed,
+                        radiant and prepped for makeup application.
+                        This alcohol-free tonic is never tested on animals.
+                        This is one of those staple products in my routine that I will NEVER go without. I prefer to buy
+                        the big 500ml bottle when they are available but I missed the last two times it was available,
+                        so instead I just keep buying the 250ml bottle when I get about 1/2 way done with my 500ml and
+                        just refill it (lol I like the pump option SO much better). It makes my skin glow & look so
+                        healthy!!! I use it every morning when I wake up after I wash my face. I’ve been using Glow
+                        Tonic daily for the last year and half & my skin has NEVER been better. Literally I can not go
+                        without.
+                    </h2>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="photo"><img src="./images/pixi.jpg"></div>
+                <div class="photo"><img src="./images/pixi2.jpg"></div>
+                <div class="photo"><img src="./images/pixi3.jpg"></div>
+                <div class="photo"><img src="./images/aaa.jpg"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="haircare">
+        <div id="haircare-header" class="container container2">
+            <div class="description2">
+                <div class="haircare-title">
+                    <h1>What is Haircare & Why is it so Important ?</h1>
+                </div>
+                <div class="haircare-desc">
+                    <h2>Hair is probably one of the first things you notice about people when meeting them for the first
+                        time. Beautiful and shiny hair always leaves good impression, which is why proper hair care is
+                        important. Also, good care of your hair plays an important part in having healthy hair and helps
+                        avoid extensive damage that can lead to hair loss. Regular washing with celebrity advertised
+                        shampoos and conditioners is not enough. To have a healthy, strong and shiny hair, you need to
+                        know
+                        how to care for it daily.I myself have frizzy hair and I'm here to help you overcome the same
+                        problem!
+                    </h2>
+                </div>
+            </div>
+            <div class="innercontainer"><img src="./images/hairrr.jpg"></div>
+        </div>
+
+        <div id="haircare-frizzy" class="container3">
+            <div class="description">
+                <div class="judulkiri">
+                    <h1>Frizzy Hair Problems</h1>
+                </div>
+                <div class="kanandesc">
+                    <h3>RAHUA</h3>
+                    <h3>HYDRATION SHAMPOO</h3>
+                    <h2>
+                        Hydration Shampoo from Rahua has been formulated to combat frizzy, unmanageable hair and
+                        transform it into smoother, stronger-feeling locks. Harnessing the power of rich Amazonian oils,
+                        this sulfate-free shampoo nourishes, revives and replenishes your hair while adding shine. They
+                        can officially stop developing any other shampoo because they have already achieved perfection!
+                        Cant say enough how much i love this shampoo. This is the best shampoo i have ever used. Doesnt
+                        weigh hair down, leaves it silky and love the fruity smell (which doesn't linger once dry). Love
+                        their gentle ingredients too!
+                    </h2>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="photo"><img src="./images/rahua.png"></div>
+                <div class="photo"><img src="./images/rahua1.jpg"></div>
+                <div class="photo"><img src="./images/rahua3.jpg"></div>
+                <div class="photo"><img src="./images/rahua4.jpg"></div>
+            </div>
+        </div>
+
+
+        <div id="haircare-dryends" class="container3">
+            <div class="description">
+                <div class="judulkiri">
+                    <h1>Dry Ends Problems</h1>
+                </div>
+                <div class="kanandesc">
+                    <h3>OUAI</h3>
+                    <h3>HAIR OIL</h3>
+                    <h2>
+                        A multitasking oil that smoothes frizz and seals split ends for high-gloss, super-smooth finish.
+                        Packed with African Galanga, Ama and Asian Borage oils keep color from fading and protect hair
+                        from heat damage.
+                        This hair oil is packed with African galanga, ama oil, and Asian borage oils to keep color from
+                        fading and protect hair from heat damage. It also addresses split ends, and has a fragrance with
+                        notes of violet, gardenia, ylang ylang, and white musk.
+                        it is formulated without parabens, sulfates, and phtalates. Doesnt
+                        weigh hair down, leaves it silky and love the fruity smell (which doesn't linger once dry). Love
+                        their gentle ingredients too!
+                    </h2>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="photo"><img src="./images/ouai.jpg"></div>
+                <div class="photo"><img src="./images/ouai2.jpg"></div>
+                <div class="photo"><img src="./images/ouai3.jpg"></div>
+                <div class="photo"><img src="./images/ouai4.jpg"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="bathbody">
+        <div id="bathbody-header" class="container container2">
+            <div class="description2">
+                <div class="bathbody-title">
+                    <h1>Bath & Body</h1>
+                </div>
+                <div class="bathbody-desc">
+                    <h2>Skin is an important factor for self-confidence. When we look good, we feel good. And our skin
+                        is a big part of our appearance. That’s why skin care is so important: it makes you look good,
+                        it keeps your skin healthy, and you will feel good.How your skin will look in ten or twenty
+                        years, depends on the way you care for it now
+                        So make sure to take good care, but also to not use skin care products that might do more bad
+                        than good. Use products that are made for your skin type, and never use anything too aggressive.
+                        I'm here to help you give some advice on some products that works for me.
+                    </h2>
+                </div>
+            </div>
+            <div class="innercontainer"><img src="./images/bodyscrub.jpg"></div>
+        </div>
+
+
+        <div id="bathbody-dry" class="container3">
+            <div class="description">
+                <div class="judulkiri">
+                    <h1>Dry Skin Problems</h1>
+                </div>
+                <div class="kanandesc">
+                    <h3>LUSH</h3>
+                    <h3>OCEAN SALT BODY SCRUB</h3>
+                    <h2>
+                        Refreshing, exfoliating, hydrating...what doesn't this scrub do? Our cult classic scrub has a
+                        mineral-rich mix of fine and coarse sea salt for serious exfoliation, balanced with coconut oil
+                        and avocado butter to soften the skin. That punchy citrus scent? It comes from lime oil as well
+                        as limes extracted in vodka to brighten and tone. Just one scrub with this beauty and you'll see
+                        why it's so popular!
+                        I was hesitant to buy this because of the mixed reviews. I had the chance to get a sample of it
+                        and WOW! It leaves your skin very soft and I can see why people complain about the oily-ness but
+                        if your face needs the moister go for it! have very dry skin under my nose and 4 uses of this
+                        scrub and it has gotten so much better! I have looked for a product to get rid of the dryness
+                        and I finally found it. The smell is great too!
+                    </h2>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="photo"><img src="./images/lush.jpg"></div>
+                <div class="photo"><img src="./images/lush2.jpg"></div>
+                <div class="photo"><img src="./images/lush3.jpg"></div>
+                <div class="photo"><img src="./images/lush4.jpg"></div>
+            </div>
+        </div>
+
+        <div id="bathbody-bodybalm" class="container3">
+            <div class="description">
+                <div class="judulkiri">
+                    <h1>Body Balm</h1>
+                </div>
+                <div class="kanandesc">
+                    <h3>AESOP</h3>
+                    <h3>GERANIUM LEAF DUET</h3>
+                    <h2>
+                        Enjoy Geranium Leaf Body Cleanser and Geranium Leaf Body Balm in concert daily to maintain
+                        impeccably cleansed and supple skin.
+                        The AESOP Geranium Leaf Duet comes from the brand’s popular line of parsley seed based products
+                        and works best for those with normal to sensitive skin. This AESOP body balm is a lotion that
+                        provides gentle exfoliation while deep cleaning the skin. Along with parsley seed, this AESOP
+                        lotion is infused with lactic acid which is an alpha hydroxy acid known for helping to exfoliate
+                        the skin, licorice root which helps to brighten the complexion, and black currant seed oil which
+                        helps stimulate skin cell regeneration. After using this product, my skin feels cleaner and
+                        smoother!
+
+                        The smallest amount goes a long way so all you need is a teaspoon. Use twice daily and blend the
+                        mixture with a few drops of water to form a milky emulsion, which should then be massaged over
+                        your damp dace and rinsed off thoroughly.
+                    </h2>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="photo"><img src="./images/aesop.jpg"></div>
+                <div class="photo"><img src="./images/aesop2.jpg"></div>
+                <div class="photo"><img src="./images/aesop5.jpg"></div>
+                <div class="photo"><img src="./images/aa.jpg"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+            <h2>Follow me on</h2>
+
+        <div class="external-link">
+          <a href="https://www.facebook.com" class="fb"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com" class="tw"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com" class="insta"><i class="fa fa-instagram"></i></a>
+        </div>
+
+
+
+
+
+
+
+
+    <script>
+        var home = document.getElementById("home");
+        var skincare = document.getElementById("skincare");
+        var haircare = document.getElementById("haircare");
+        var bathbody = document.getElementById("bathbody");
+        homePage();
+
+        function homePage() {
+            home.style.display = "block";
+            skincare.style.display = "none";
+            haircare.style.display = "none";
+            bathbody.style.display = "none";
+        }
+
+        function skincarePage() {
+            home.style.display = "none";
+            skincare.style.display = "block";
+            haircare.style.display = "none";
+            bathbody.style.display = "none";
+        }
+
+        function haircarePage() {
+            home.style.display = "none";
+            skincare.style.display = "none";
+            haircare.style.display = "block";
+            bathbody.style.display = "none";
+        }
+
+        function bathbodyPage() {
+            home.style.display = "none";
+            skincare.style.display = "none";
+            haircare.style.display = "none";
+            bathbody.style.display = "block";
+        }
+
+
+
+
+
+        var clickkSideNav = false;
+        var sideNav = document.getElementsByClassName("sidenav-container")[0];
+        sideNav.style.display = 'none';
+
+        function toggleSideNav() {
+            if (clickkSideNav == false) {
+                sideNav.style.display = 'block';
+                clickkSideNav = true;
+            }
+            else {
+                sideNav.style.display = 'none';
+                clickkSideNav = false;
+            }
+        }
+
+        function homePage1() {
+            home.style.display = "block";
+            skincare.style.display = "none";
+            haircare.style.display = "none";
+            bathbody.style.display = "none";
+            toggleSideNav();
+        }
+
+        function skincarePage1() {
+            home.style.display = "none";
+            skincare.style.display = "block";
+            haircare.style.display = "none";
+            bathbody.style.display = "none";
+            toggleSideNav();
+        }
+
+        function haircarePage1() {
+            home.style.display = "none";
+            skincare.style.display = "none";
+            haircare.style.display = "block";
+            bathbody.style.display = "none";
+            toggleSideNav();
+        }
+
+        function bathbodyPage1() {
+            home.style.display = "none";
+            skincare.style.display = "none";
+            haircare.style.display = "none";
+            bathbody.style.display = "block";
+            toggleSideNav();
+        }
+
+    </script>
+</body>
+
+</html>
